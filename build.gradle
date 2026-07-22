@@ -18,7 +18,13 @@ java {
 repositories {
     mavenCentral()
     maven { url = "https://repo.essential.gg/repository/maven-public/" }
-    maven { url = "https://maven.minecraftforge.net/" }
+    maven {
+        url = "https://maven.minecraftforge.net/"
+        metadataSources {
+            mavenPom()
+            artifact()
+        }
+    }
     maven { url = "https://libraries.minecraft.net/" }
 }
 
