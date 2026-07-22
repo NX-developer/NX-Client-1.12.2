@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "nxclient",
+    "name": "NX Client",
+    "description": "Singleplayer utility client for Minecraft 1.12.2 with ClickGUI, HUD and addon API.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://github.com/NX-developer/NX-Client-1.12.2",
+    "authorList": ["NX Team"],
+    "credits": "NX Team"
+  }
+]
