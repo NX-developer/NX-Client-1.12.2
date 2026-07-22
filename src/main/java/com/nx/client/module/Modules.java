@@ -22,6 +22,13 @@ import com.nx.client.module.modules.movement.Spider;
 import com.nx.client.module.modules.movement.Step;
 import com.nx.client.module.modules.movement.Timer;
 import com.nx.client.module.modules.player.AutoEat;
+import com.nx.client.module.modules.player.AutoFish;
+import com.nx.client.module.modules.player.AutoTotem;
+import com.nx.client.module.modules.player.ChestStealer;
+import com.nx.client.module.modules.player.FastBreak;
+import com.nx.client.module.modules.player.FastPlace;
+import com.nx.client.module.modules.player.InventoryCleaner;
+import com.nx.client.module.modules.player.Scaffold;
 import com.nx.client.module.modules.player.AutoRespawn;
 import com.nx.client.module.modules.player.AutoTool;
 import com.nx.client.module.modules.player.Nuker;
@@ -86,5 +93,12 @@ public final class Modules {
         manager.add(new AutoEat());
         manager.add(new AutoTool());
         manager.add(new Nuker());
+        manager.add(new FastPlace());
+        manager.add(new FastBreak());
+        manager.add(new AutoTotem());
+        manager.add(new Scaffold());
+        manager.add(new ChestStealer());
+        manager.add(new InventoryCleaner());
+        manager.add(new AutoFish());
     }
 }

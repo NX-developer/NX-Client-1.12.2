@@ -15,7 +15,7 @@ concept, but they are built on different toolchains, so their code is separate.
 Combat: KillAura, Aimbot, TriggerBot, AutoClicker, Criticals, AntiKnockback
 Movement: Fly, Speed, NoFall, Jesus, Step, HighJump, AutoSprint, BunnyHop, Glide, Spider, AutoWalk, AutoSneak, SafeWalk, NoSlow, Timer
 Render: Fullbright, Zoom, HUD, Coordinates, FpsCounter, XRay, EntityESP, Tracers, ItemESP, ChestESP, BedESP, Nametags, Freecam
-Player: AutoRespawn, AutoEat, AutoTool, Nuker
+Player: AutoRespawn, AutoEat, AutoTool, Nuker, FastPlace, FastBreak, AutoTotem, Scaffold, ChestStealer, InventoryCleaner, AutoFish
 
 
 ## Controls
