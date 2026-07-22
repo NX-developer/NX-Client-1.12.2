@@ -8,6 +8,7 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.Vec3i;
 
 public class Scaffold extends Module {
 
@@ -47,10 +48,11 @@ public class Scaffold extends Module {
         }
         mc.player.inventory.currentItem = slot;
         EnumFacing side = directionTo(support, below);
+        Vec3i offset = side.getDirectionVec();
         Vec3d hitVec = new Vec3d(
-                support.getX() + 0.5 + side.getFrontOffsetX() * 0.5,
-                support.getY() + 0.5 + side.getFrontOffsetY() * 0.5,
-                support.getZ() + 0.5 + side.getFrontOffsetZ() * 0.5);
+                support.getX() + 0.5 + offset.getX() * 0.5,
+                support.getY() + 0.5 + offset.getY() * 0.5,
+                support.getZ() + 0.5 + offset.getZ() * 0.5);
         mc.playerController.processRightClickBlock(mc.player, mc.world, support, side, hitVec, EnumHand.MAIN_HAND);
         mc.player.swingArm(EnumHand.MAIN_HAND);
     }
