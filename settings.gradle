@@ -1,11 +1,1 @@
-pluginManagement {
-    repositories {
-        gradlePluginPortal()
-        maven { url = "https://maven.fabricmc.net/" }
-        maven { url = "https://maven.architectury.dev/" }
-        maven { url = "https://repo.essential.gg/repository/maven-public/" }
-        maven { url = "https://maven.minecraftforge.net/" }
-    }
-}
-
 rootProject.name = "nx-client-1.12.2"
