@@ -11,6 +11,18 @@ buildscript {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
+repositories {
+    mavenCentral()
+    maven {
+        name = "forge"
+        url = "https://maven.minecraftforge.net/"
+    }
+    maven {
+        name = "minecraft"
+        url = "https://libraries.minecraft.net/"
+    }
+}
+
 version = project.mod_version
 group = "com.nx"
 archivesBaseName = "nx-client-1.12.2"
