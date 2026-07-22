@@ -13,11 +13,10 @@ concept, but they are built on different toolchains, so their code is separate.
 ## Modules
 
 Combat: KillAura, Aimbot, TriggerBot, AutoClicker, Criticals, AntiKnockback
-Movement: Fly, Speed, NoFall, Jesus, Step, HighJump, AutoSprint, BunnyHop, Glide, Spider, AutoWalk, AutoSneak, SafeWalk, NoSlow
-Render: Fullbright, Zoom, HUD, Coordinates, FpsCounter
+Movement: Fly, Speed, NoFall, Jesus, Step, HighJump, AutoSprint, BunnyHop, Glide, Spider, AutoWalk, AutoSneak, SafeWalk, NoSlow, Timer
+Render: Fullbright, Zoom, HUD, Coordinates, FpsCounter, XRay, EntityESP, Tracers, ItemESP, ChestESP, BedESP, Nametags, Freecam
 Player: AutoRespawn, AutoEat, AutoTool, Nuker
 
-More modules from the 1.21 version are being ported.
 
 ## Controls
 
