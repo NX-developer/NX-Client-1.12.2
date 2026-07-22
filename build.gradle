@@ -16,10 +16,18 @@ repositories {
     maven {
         name = "forge"
         url = "https://maven.minecraftforge.net/"
+        metadataSources {
+            mavenPom()
+            artifact()
+        }
     }
     maven {
         name = "minecraft"
         url = "https://libraries.minecraft.net/"
+        metadataSources {
+            mavenPom()
+            artifact()
+        }
     }
 }
 
